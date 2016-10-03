@@ -1,0 +1,311 @@
+iwmap 4
+"script_startingnumber" 0
+"000_Global" flags  active
+"The Map" flags expanded 
+// entity 0
+{
+guid "{E67CC72E-84FD-11E6-A509-C83A35C12C51}"
+"classname" "worldspawn"
+"fsi" "default"
+"gravity" "800"
+"lodbias" "default"
+"lutmaterial" "luts_t7_default"
+"numOmniShadowSlices" "24"
+"numSpotShadowSlices" "64"
+"sky_intensity_factor0" "1"
+"sky_intensity_factor1" "1"
+"state_alias_1" "State 1"
+"state_alias_2" "State 2"
+"state_alias_3" "State 3"
+"state_alias_4" "State 4"
+// brush 0
+{
+ guid "{34FA49FF-84FB-11E6-A509-C83A35C12C51}"
+ ( 103.25 -29.5 0 ) ( 55.25 -29.5 0 ) ( 55.25 -85.5 0 ) t7_concrete_sidewalk_01 64 64 0 0 0 0 lightmap_gray 16384 16384 87.324219 101.55859 0 0
+ ( 151.25 -85.5 24 ) ( 151.25 -29.5 24 ) ( 199.25 -29.5 24 ) t7_concrete_sidewalk_01 64 64 0 0 0 0 lightmap_gray 16384 16384 183.32422 101.55859 0 0
+ ( 159.25 -125.5 104 ) ( 207.25 -125.5 104 ) ( 207.25 -125.5 96 ) t7_concrete_sidewalk_01 64 64 0 0 0 0 lightmap_gray 16384 16384 191.32422 -96 0 0
+ ( 375.25 -93.5 8 ) ( 375.25 -37.5 8 ) ( 375.25 -37.5 0 ) t7_concrete_sidewalk_01 64 64 0 0 0 0 lightmap_gray 16384 16384 -109.55859 0 0 0
+ ( -136.75 194.5 8 ) ( -184.75 194.5 8 ) ( -184.75 194.5 0 ) t7_concrete_sidewalk_01 64 64 0 0 0 0 lightmap_gray 16384 16384 -24.675781 0 0 0
+ ( -400.75 186.5 8 ) ( -400.75 130.5 8 ) ( -400.75 130.5 0 ) t7_concrete_sidewalk_01 64 64 0 0 0 0 lightmap_gray 16384 16384 -29.558594 0 0 0
+}
+// brush 1
+{
+ guid "{5FDB8D79-84FD-11E6-A509-C83A35C12C51}"
+ ( 103.25 -29.5 200 ) ( 55.25 -29.5 200 ) ( 55.25 -85.5 200 ) t7_concrete_sidewalk_01 64 64 0 0 0 0 lightmap_gray 16384 16384 87.324219 101.55859 0 0
+ ( 151.25 -85.5 224 ) ( 151.25 -29.5 224 ) ( 199.25 -29.5 224 ) t7_concrete_sidewalk_01 64 64 0 0 0 0 lightmap_gray 16384 16384 183.32422 101.55859 0 0
+ ( 159.25 -125.5 304 ) ( 207.25 -125.5 304 ) ( 207.25 -125.5 296 ) t7_concrete_sidewalk_01 64 64 0 -200 0 0 lightmap_gray 16384 16384 191.32422 -296 0 0
+ ( 375.25 -93.5 208 ) ( 375.25 -37.5 208 ) ( 375.25 -37.5 200 ) t7_concrete_sidewalk_01 64 64 0 -200 0 0 lightmap_gray 16384 16384 -109.55859 -200 0 0
+ ( -136.75 194.5 208 ) ( -184.75 194.5 208 ) ( -184.75 194.5 200 ) t7_concrete_sidewalk_01 64 64 0 -200 0 0 lightmap_gray 16384 16384 -24.675781 -200 0 0
+ ( -400.75 186.5 208 ) ( -400.75 130.5 208 ) ( -400.75 130.5 200 ) t7_concrete_sidewalk_01 64 64 0 -200 0 0 lightmap_gray 16384 16384 -29.558594 -200 0 0
+}
+// brush 2
+{
+ guid "{662E3216-84FD-11E6-A509-C83A35C12C51}"
+ ( -360 192 0 ) ( -424 192 0 ) ( -424 -120 0 ) t7_concrete_sidewalk_01 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -424 -120 232 ) ( -424 192 232 ) ( -360 192 232 ) t7_concrete_sidewalk_01 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -424 -120 232 ) ( -360 -120 232 ) ( -360 -120 0 ) t7_concrete_sidewalk_01 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -360 -120 232 ) ( -360 192 232 ) ( -360 192 0 ) t7_concrete_sidewalk_01 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -360 192 232 ) ( -424 192 232 ) ( -424 192 0 ) t7_concrete_sidewalk_01 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( -424 192 232 ) ( -424 -120 232 ) ( -424 -120 0 ) t7_concrete_sidewalk_01 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 3
+{
+ guid "{662E321C-84FD-11E6-A509-C83A35C12C51}"
+ ( 376 192 0 ) ( 312 192 0 ) ( 312 -120 0 ) t7_concrete_sidewalk_01 64 64 736 0 0 0 lightmap_gray 16384 16384 736 0 0 0
+ ( 312 -120 232 ) ( 312 192 232 ) ( 376 192 232 ) t7_concrete_sidewalk_01 64 64 736 0 0 0 lightmap_gray 16384 16384 736 0 0 0
+ ( 312 -120 232 ) ( 376 -120 232 ) ( 376 -120 0 ) t7_concrete_sidewalk_01 64 64 736 0 0 0 lightmap_gray 16384 16384 736 0 0 0
+ ( 376 -120 232 ) ( 376 192 232 ) ( 376 192 0 ) t7_concrete_sidewalk_01 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 376 192 232 ) ( 312 192 232 ) ( 312 192 0 ) t7_concrete_sidewalk_01 64 64 736 0 0 0 lightmap_gray 16384 16384 736 0 0 0
+ ( 312 192 232 ) ( 312 -120 232 ) ( 312 -120 0 ) t7_concrete_sidewalk_01 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+}
+// brush 4
+{
+ guid "{6DA60508-84FD-11E6-A509-C83A35C12C51}"
+ ( 376 224 -16 ) ( 312 224 -16 ) ( 312 -152 -16 ) t7_concrete_sidewalk_01 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 312 -152 240 ) ( 312 224 240 ) ( 376 224 240 ) t7_concrete_sidewalk_01 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 312 -152 240 ) ( 376 -152 240 ) ( 376 -152 -16 ) t7_concrete_sidewalk_01 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 376 -152 240 ) ( 376 224 240 ) ( 376 224 -16 ) t7_concrete_sidewalk_01 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 320 -96 240 ) ( 256 -96 240 ) ( 256 -96 -16 ) t7_concrete_sidewalk_01 64 64 -56 0 0 0 lightmap_gray 16384 16384 -56 0 0 0
+ ( -424 296 240 ) ( -424 -80 240 ) ( -424 -80 -16 ) t7_concrete_sidewalk_01 64 64 72 0 0 0 lightmap_gray 16384 16384 72 0 0 0
+}
+// brush 5
+{
+ guid "{7434A3B2-84FD-11E6-A509-C83A35C12C51}"
+ ( 376 560 -16 ) ( 312 560 -16 ) ( 312 184 -16 ) t7_concrete_sidewalk_01 64 64 0 -336 0 0 lightmap_gray 16384 16384 0 -336 0 0
+ ( 312 184 240 ) ( 312 560 240 ) ( 376 560 240 ) t7_concrete_sidewalk_01 64 64 0 -336 0 0 lightmap_gray 16384 16384 0 -336 0 0
+ ( 312 184 240 ) ( 376 184 240 ) ( 376 184 -16 ) t7_concrete_sidewalk_01 64 64 0 0 0 0 lightmap_gray 16384 16384 0 0 0 0
+ ( 376 184 240 ) ( 376 560 240 ) ( 376 560 -16 ) t7_concrete_sidewalk_01 64 64 336 0 0 0 lightmap_gray 16384 16384 336 0 0 0
+ ( 320 240 240 ) ( 256 240 240 ) ( 256 240 -16 ) t7_concrete_sidewalk_01 64 64 -56 0 0 0 lightmap_gray 16384 16384 -56 0 0 0
+ ( -424 632 240 ) ( -424 256 240 ) ( -424 256 -16 ) t7_concrete_sidewalk_01 64 64 408 0 0 0 lightmap_gray 16384 16384 408 0 0 0
+}
+}
+// entity 1
+{
+guid "{D522B28B-84FB-11E6-A509-C83A35C12C51}"
+"classname" "info_player_start"
+"angles" "0 -134.62 0"
+"origin" "10.4995 17.3498 67.1667"
+}
+// entity 2
+{
+guid "{E3DB463D-84FC-11E6-A509-C83A35C12C51}"
+"classname" "actor_spawner_zm_factory_zombie"
+"export" "1"
+"origin" "88 40 40"
+"ALERTONSPAWN" "1"
+"SPAWNER" "1"
+"_color" "1 0.25 0"
+"count" "1"
+"engageMaxDist" "700"
+"engageMinDist" "250"
+"model" "c_zom_test_body1"
+"script_dropammo" "1"
+"sm_active_count_max" "3"
+"sm_active_count_min" "3"
+"spawnflags" "9"
+}
+// entity 3
+{
+guid "{4F2F610F-84FD-11E6-A509-C83A35C12C51}"
+"classname" "info_player_start"
+"origin" "-48 40 72"
+}
+// entity 4
+{
+guid "{56801EAC-84FD-11E6-A509-C83A35C12C51}"
+"classname" "actor_spawner_zm_factory_zombie"
+"export" "2"
+"origin" "-152 32 56"
+"ALERTONSPAWN" "1"
+"SPAWNER" "1"
+"_color" "1 0.25 0"
+"count" "1"
+"engageMaxDist" "700"
+"engageMinDist" "250"
+"model" "c_zom_test_body1"
+"script_dropammo" "1"
+"sm_active_count_max" "3"
+"sm_active_count_min" "3"
+"spawnflags" "9"
+}
+// entity 5
+{
+guid "{8A185327-84FD-11E6-A509-C83A35C12C51}"
+"classname" "build_light"
+"origin" "-304 24 120"
+"ENABLE_FALLOFF" "1"
+"PRIMARY_NOSHADOWMAP" "1"
+"PRIMARY_TYPE" "PRIMARY_OMNI"
+"_color" "1 1 1"
+"bake_intensity_scale" "1"
+"client_server" "ClientSide"
+"def_tile" "1 1"
+"excludeDedicated" "Off"
+"falloffdistance" "12"
+"far_edge" "0.949999988079071"
+"fov_outer" "90"
+"lightingstate1" "1"
+"lightingstate2" "1"
+"lightingstate3" "1"
+"lightingstate4" "1"
+"name" "light"
+"penumbraRadius" "1.5"
+"radius" "100"
+"roundness" "0.5"
+"shadowUpdate" "Never"
+"shadowmapScale" "1"
+"stops" "11"
+"superellipse" "0.75 1 0.75 1"
+"volumetricSampleCount" "8"
+"spawnflags" "82"
+}
+// entity 6
+{
+guid "{A906B027-84FD-11E6-A509-C83A35C12C51}"
+"classname" "volume_sun"
+"global_fill_color" "0 0 0"
+"global_fill_intensity" "1"
+"grid_density" "32"
+"respectLightLods" "1"
+"shadowBiasScale" "1"
+"shadowSplitDistance" "2000"
+"shadowVistaDetail" "1"
+"ssi1" "default_day"
+"streamLighting" "1"
+// brush 0
+{
+ guid "{A906B026-84FD-11E6-A509-C83A35C12C51}"
+ ( -224 96 168 ) ( -280 96 168 ) ( -280 32 168 ) sun_volume 64 64 -24 0 0 0 lightmap_gray 16384 16384 -24 0 0 0
+ ( -280 32 176 ) ( -280 96 176 ) ( -224 96 176 ) sun_volume 64 64 -24 0 0 0 lightmap_gray 16384 16384 -24 0 0 0
+ ( -280 32 176 ) ( -224 32 176 ) ( -224 32 168 ) sun_volume 64 64 -24 -56 0 0 lightmap_gray 16384 16384 -24 -56 0 0
+ ( -224 32 176 ) ( -224 96 176 ) ( -224 96 168 ) sun_volume 64 64 0 -56 0 0 lightmap_gray 16384 16384 0 -56 0 0
+ ( -224 96 176 ) ( -280 96 176 ) ( -280 96 168 ) sun_volume 64 64 -24 -56 0 0 lightmap_gray 16384 16384 -24 -56 0 0
+ ( -280 96 176 ) ( -280 32 176 ) ( -280 32 168 ) sun_volume 64 64 0 -56 0 0 lightmap_gray 16384 16384 0 -56 0 0
+}
+}
+// entity 7
+{
+guid "{E67CC729-84FD-11E6-A509-C83A35C12C51}"
+"classname" "node_pathnode"
+"origin" "-96 -24 48"
+"_color" "1 0 1"
+}
+// entity 8
+{
+guid "{E67CC738-84FD-11E6-A509-C83A35C12C51}"
+"classname" "node_pathnode"
+"origin" "-24 -24 48"
+"_color" "1 0 1"
+}
+// entity 9
+{
+guid "{E67CC742-84FD-11E6-A509-C83A35C12C51}"
+"classname" "node_pathnode"
+"origin" "64 -24 48"
+"_color" "1 0 1"
+}
+// entity 10
+{
+guid "{ED39A13E-84FD-11E6-A509-C83A35C12C51}"
+"classname" "node_pathnode"
+"origin" "-184 -24 48"
+"_color" "1 0 1"
+}
+// entity 11
+{
+guid "{ED39A148-84FD-11E6-A509-C83A35C12C51}"
+"classname" "node_pathnode"
+"origin" "-264 -16 48"
+"_color" "1 0 1"
+}
+// entity 12
+{
+guid "{ED39A152-84FD-11E6-A509-C83A35C12C51}"
+"classname" "node_pathnode"
+"origin" "-264 64 48"
+"_color" "1 0 1"
+}
+// entity 13
+{
+guid "{ED39A15F-84FD-11E6-A509-C83A35C12C51}"
+"classname" "node_pathnode"
+"origin" "-264 136 48"
+"_color" "1 0 1"
+}
+// entity 14
+{
+guid "{F3BC331D-84FD-11E6-A509-C83A35C12C51}"
+"classname" "node_pathnode"
+"origin" "-168 72 48"
+"_color" "1 0 1"
+}
+// entity 15
+{
+guid "{F3BC3327-84FD-11E6-A509-C83A35C12C51}"
+"classname" "node_pathnode"
+"origin" "-176 144 48"
+"_color" "1 0 1"
+}
+// entity 16
+{
+guid "{F3BC3331-84FD-11E6-A509-C83A35C12C51}"
+"classname" "node_pathnode"
+"origin" "-96 120 48"
+"_color" "1 0 1"
+}
+// entity 17
+{
+guid "{F3BC333E-84FD-11E6-A509-C83A35C12C51}"
+"classname" "node_pathnode"
+"origin" "-104 64 48"
+"_color" "1 0 1"
+}
+// entity 18
+{
+guid "{F3BC3348-84FD-11E6-A509-C83A35C12C51}"
+"classname" "node_pathnode"
+"origin" "24 128 48"
+"_color" "1 0 1"
+}
+// entity 19
+{
+guid "{FA524492-84FD-11E6-A509-C83A35C12C51}"
+"classname" "node_pathnode"
+"origin" "24 64 48"
+"_color" "1 0 1"
+}
+// entity 20
+{
+guid "{FA52449C-84FD-11E6-A509-C83A35C12C51}"
+"classname" "node_pathnode"
+"origin" "120 48 48"
+"_color" "1 0 1"
+}
+// entity 21
+{
+guid "{FA5244A6-84FD-11E6-A509-C83A35C12C51}"
+"classname" "node_pathnode"
+"origin" "112 104 48"
+"_color" "1 0 1"
+}
+// entity 22
+{
+guid "{FA5244B0-84FD-11E6-A509-C83A35C12C51}"
+"classname" "node_pathnode"
+"origin" "200 104 48"
+"_color" "1 0 1"
+}
+// entity 23
+{
+guid "{FA5244BA-84FD-11E6-A509-C83A35C12C51}"
+"classname" "node_pathnode"
+"origin" "208 32 48"
+"_color" "1 0 1"
+}
+// entity 24
+{
+guid "{006CEC48-84FE-11E6-A509-C83A35C12C51}"
+"classname" "node_pathnode"
+"origin" "208 -32 48"
+"_color" "1 0 1"
+}
